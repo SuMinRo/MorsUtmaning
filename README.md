@@ -2,7 +2,7 @@
 Detta repositorium innehåller möjligheterna för Mor att kunna ta del av en viktig nyhet i framtiden. Av säkerhetsskäl måste dessa framtida nyheter av denna kaliber kodas, så att nyheterna inte riskerar falla i fel händer. Vid utfärdningstillfället är nyheterna inte redo – det ligger hos Mor att ha lösningen redo till när nyheterna kommer i framtiden, eller att vid mottagandet av nyheterna börja klura på lösningen.
 
 ## Beskrivning
-Utmaning.py innehåller Python3-kod som möjliggör kodning av ett meddelande i klartext. Alla förutsättningar för att kunna avkoda ett kodat meddelande finns i Python3-filen, men funktionerna för att avkoda behöver implementeras. Utmaningen förutsätter kodvana på nybörjar nivå. Därför uppmanas Mor att börja lära sig koda Python3.
+Utmaning.py innehåller Python3-kod som möjliggör kodning av ett meddelande i klartext. Alla förutsättningar för att kunna avkoda ett kodat meddelande finns i Python3-filen, men funktionerna för att avkoda behöver implementeras. Utmaningen förutsätter kodvana på nybörjarnivå. Därför uppmanas Mor att börja lära sig koda Python3.
 
 ## Resurser
 Här föreslås resurser som Mor kan utnyttja för att ta sig igenom utmaningen. Resurser som *inte* nämns här avråds från att användas.
