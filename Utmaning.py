@@ -1,3 +1,5 @@
+"""Text i koden med tre citattecken runt om, eller med en '#' framför är kommentarer och aldrig kod som kommer att exekveras. '#' gäller bara för samma rad, medan citattecknen gäller för hela blocket emellan."""
+
 characterDictionary = {'A' : 0,
                        'a' : 1,
                        'B' : 2,
