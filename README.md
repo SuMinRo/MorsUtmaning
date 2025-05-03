@@ -4,6 +4,8 @@ Detta repositorium innehåller möjligheterna för Mor att kunna ta del av en vi
 ## Beskrivning
 Utmaning.py innehåller Python3-kod som möjliggör kodning av ett meddelande i klartext. Alla förutsättningar för att kunna avkoda ett kodat meddelande finns i Python3-filen, men funktionerna för att avkoda behöver implementeras. Utmaningen förutsätter kodvana på nybörjarnivå. Därför uppmanas Mor att börja lära sig koda Python3.
 
+Bilaga.py innehåller hjälpsamma tillägg till Utmaning.py, som har uppenbarat sig. Den har tillkommit senare, för att inte ändra ursprungliga filen.
+
 ## Resurser
 Här föreslås resurser som Mor kan utnyttja för att ta sig igenom utmaningen. Resurser som *inte* nämns här avråds från att användas.
 
