@@ -67,7 +67,12 @@ characterDictionary = {'A' : 0,
                        ';' : 64,
                        '-' : 65}
 
-testMessage = "Apans bravader har skapat stora problem för mig. Kan du låna mig lite fnöske?"
+reverseCharacterDictionary  = {v: k for k, v in characterDictionary.items()}
+
+encodedMessage = "17333132 2053318 11252068 1115241 7315111 3953260 17942971 16830916 16845253 2267853 16836799 16847227 5143591 8455603 " \
+"4904353 7767233 10852315 7316224 7890160 11347979 10311436 11382352 10311568 2621785 10767543 4989451 10890079 4989451 16934359 6291228 " \
+"2698043 11220563 16404207 16680413 16705879 10122513 11394769 7838785 2618061 9040144 17979143 10311436 11382352 10711924 2760075 2265221 " \
+"16838391 2706875 6716109 474335 16003451 3813045 16714228 4988752 7317583 6686716 11218357 363867 18230477 749950 4643664 16931303"
 
 # Transformerar ett meddelande i sin helhet till numerisk kod utifrån icke-överlappande quadgram (sekvens av 4 tecken).
 def encodeMessage(message):
@@ -101,8 +106,6 @@ def encryptQuadgram(quadgram):
         s += str(characterDictionary[quadgram[i]]) + " "
     return s[:-1]
 
-print(encodeMessage(testMessage))
-
 # Nedan kommer ett förslag på kodskelett för att avkoda ett kodat meddelande. Det är fritt fram att definiera nya funktioner eller att ta bort de man inte tycker passar.
 
 # Avkodar ett kodat meddelande i sin helhet till klartext. Den bör reversera 'encodeMessage()' ovan.
@@ -120,3 +123,6 @@ def decodeQuadgram(number):
     # TODO
 
     return quadgram
+
+print(encodedMessage)
+print(decodeMessage(encodedMessage))
